@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #Constantes 
-MODELO = "gemini-flash-latest"
+MODELO = "gemini-3.6-flash"
 URL_BASE = "https://generativelanguage.googleapis.com/v1beta/models/"
 API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -53,7 +53,18 @@ def extraer_texto(datos):
 def obtener_dato_prueba(pregunta):
     url, body = armar_peticion(pregunta)
     datos = enviar_peticion(url, body)
+    costo = calcular_costo(datos, 0.00000075, 0.00000375)
+    print(f"Costo de la solicitud: ${costo:.6f} USD")
     return extraer_texto(datos)
+
+def calcular_costo(datos, precio_entrada, precio_salida):
+    uso = datos["usageMetadata"]
+    tokens_entrada = uso["promptTokensCount"]
+    tokens_salida = uso["candidatesTokensCount"]
+    tokens_razonamiento = uso["thoughtTokensCount"]
+    costo = (tokens_entrada * precio_entrada) + ((tokens_salida + tokens_razonamiento) * precio_salida)
+    return costo
+
 
 try:
   print(obtener_dato_prueba("Confirma en una frase corta que esta conexion funciona correctamente"))
