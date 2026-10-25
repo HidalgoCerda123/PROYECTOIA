@@ -61,7 +61,7 @@ def calcular_costo(datos, precio_entrada, precio_salida):
     uso = datos["usageMetadata"]
     tokens_entrada = uso["promptTokenCount"]
     tokens_salida = uso["candidatesTokenCount"]
-    tokens_razonamiento = uso["thoughtTokenCount"]
+    tokens_razonamiento = uso["thoughtsTokenCount"]
     costo = (tokens_entrada * precio_entrada) + ((tokens_salida + tokens_razonamiento) * precio_salida)
     return costo
 
