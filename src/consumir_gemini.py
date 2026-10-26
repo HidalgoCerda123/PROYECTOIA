@@ -28,15 +28,23 @@ def armar_peticion(pregunta, nombre_modelo=MODELO): #pregunta= "Confirma la cone
     return url, body
 #arma_peticion_openai -> url, body
 
-#funcion envia la peticion 
-def enviar_peticion(url, body):
-    try:
-        respuesta= requests.post(url, json=body, timeout=30)
-    except requests.exceptions.ConnectionError:
-        raise RuntimeError("No se pudo conectar con el servicio. Intenta de nuevo en unos momentos.")
-    except requests.exceptions.Timeout:
-        raise RuntimeError("Se agoto el tiempo. Intenta de nuevo en unos momentos.")
+#error que vale la pena reintentar (sobrecarga, limite de uso, timeout)
+class ErrorTransitorio(RuntimeError):
+    pass
 
+CODIGOS_TRANSITORIOS = (429, 500, 503, 504)
+
+#funcion envia la peticion 
+def enviar_peticion(url, body, timeout=30):
+    try:
+        respuesta= requests.post(url, json=body, timeout=timeout)
+    except requests.exceptions.ConnectionError:
+        raise ErrorTransitorio("No se pudo conectar con el servicio. Intenta de nuevo en unos momentos.")
+    except requests.exceptions.Timeout:
+        raise ErrorTransitorio("Se agoto el tiempo. Intenta de nuevo en unos momentos.")
+
+    if respuesta.status_code in CODIGOS_TRANSITORIOS:
+        raise ErrorTransitorio(f"Servicio no disponible por ahora. Status Code: {respuesta.status_code}")
     if respuesta.status_code != 200:
         raise RuntimeError(f"Error en la solicitud. Status Code: {respuesta.status_code}")
     

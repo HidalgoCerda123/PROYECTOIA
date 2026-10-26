@@ -1,0 +1,354 @@
+[
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "SOAP.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "SOAP",
+      "2027-03-31"
+    ],
+    "latencia": 20.657737100031227,
+    "costo": 0.000303
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "PADRON.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Padron",
+      null
+    ],
+    "latencia": 15.749328300007619,
+    "costo": 0.00027550000000000003
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Permiso de circulacion",
+      "2027-03-31"
+    ],
+    "latencia": 20.40064850001363,
+    "costo": 0.0003105
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Revision tecnica",
+      "2027-05-31"
+    ],
+    "latencia": 24.06807789998129,
+    "costo": 0.00030900000000000003
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "SOAP.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "SOAP",
+      "2027-03-31"
+    ],
+    "latencia": 16.518051900027785,
+    "costo": 0.000303
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "PADRON.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Padron",
+      null
+    ],
+    "latencia": 13.859088499972131,
+    "costo": 0.00027550000000000003
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Permiso de circulacion",
+      "2027-03-31"
+    ],
+    "latencia": 14.70925370004261,
+    "costo": 0.0003105
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Revision tecnica",
+      "2027-05-31"
+    ],
+    "latencia": 19.697895399993286,
+    "costo": 0.00030900000000000003
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "SOAP.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 10.129380099999253,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "PADRON.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 6.215376699983608,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 7.247175699973013,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 3.042596200015396,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "SOAP.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 42.443779599969275,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "PADRON.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 5.7851728000096045,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 7.823612199979834,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.8-flash",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 5.833823599969037,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 503"
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "SOAP.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "SOAP",
+      "2027-03-31"
+    ],
+    "latencia": 54.67881810001563,
+    "costo": 0.00408
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "PADRON.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Padron",
+      null
+    ],
+    "latencia": 20.956385200028308,
+    "costo": 0.00417
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Permiso de circulacion",
+      "2027-03-31"
+    ],
+    "latencia": 4.75143120001303,
+    "costo": 0.0041175
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Revision tecnica",
+      "2027-05-31"
+    ],
+    "latencia": 15.051370399945881,
+    "costo": 0.0045975
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "SOAP.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "SOAP",
+      "2027-03-31"
+    ],
+    "latencia": 8.641475899959914,
+    "costo": 0.004125
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "PADRON.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Padron",
+      null
+    ],
+    "latencia": 7.5272037999820895,
+    "costo": 0.0036975000000000003
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Permiso de circulacion",
+      "2027-03-31"
+    ],
+    "latencia": 5.822420199983753,
+    "costo": 0.004432500000000001
+  },
+  {
+    "modelo": "gemini-3.6-flash",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": true,
+    "acierto": true,
+    "obtenido": [
+      "TRGJ62",
+      "Revision tecnica",
+      "2027-05-31"
+    ],
+    "latencia": 7.592214300006162,
+    "costo": 0.0056324999999999995
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "SOAP.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 4.404510999971535,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "PADRON.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 5.8032753999577835,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 1.572852100012824,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 3.268453099997714,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "SOAP.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 3.678404500009492,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "PADRON.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 2.8750411000219174,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "PERMISO_CIRCULACION.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 1.6393188000074588,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  },
+  {
+    "modelo": "gemini-3.1-pro-preview",
+    "pdf": "REVISION_TECNICA.pdf",
+    "ok": false,
+    "acierto": false,
+    "latencia": 3.2451307000010274,
+    "costo": 0,
+    "error": "Servicio no disponible por ahora. Status Code: 429"
+  }
+]

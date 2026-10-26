@@ -6,6 +6,9 @@ env/
 # Variables de entorno (secretos, nunca se sube)
 .env
 
+# Datos de la flota (documentos y fechas registrados)
+data/
+
 # Cachés y compilados de Python
 __pycache__/
 *.py[cod]
